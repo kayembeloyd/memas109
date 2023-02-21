@@ -11,13 +11,7 @@ import {
 import Icons from "../assets/icons/Icons";
 import CustomButton from "./CustomButton";
 
-export default function FilterBar({
-  children,
-  style,
-  title,
-  search,
-  onSearchPress,
-}) {
+export default function FilterBar({ children, style, title, onSearchPress }) {
   const [expanded, setExpanded] = useState(false);
   return (
     <LinearGradient

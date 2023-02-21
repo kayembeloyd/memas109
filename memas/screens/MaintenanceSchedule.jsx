@@ -7,7 +7,6 @@ import { AuthContext } from "../context/AuthContext";
 import Icons from "../assets/icons/Icons";
 import MenuItem from "../components/MenuItem";
 import Menu from "../components/Menu";
-import MaintenanceLogCard from "../components/MaintenanceLogCard";
 import FilterBar from "../components/FilterBar";
 import FooterNavigator from "../components/FooterNavigator";
 import FooterNavigator2 from "../components/FooterNavigator2";

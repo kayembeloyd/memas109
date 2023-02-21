@@ -1,6 +1,5 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity } from "react-native";
-import { View } from "react-native";
 
 export default function EquipmentCard({ style, onPress }) {
   return (

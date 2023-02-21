@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { TextInput } from "react-native-gesture-handler";
-import Icons from "../assets/icons/Icons";
 
 export default function CustomTextInput2({ style, title, placeholder, icon }) {
   return (

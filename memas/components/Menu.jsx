@@ -3,13 +3,10 @@ import {
   Modal,
   Pressable,
   StyleSheet,
-  TouchableOpacity,
   View,
   ScrollView,
-  Text,
   useWindowDimensions,
 } from "react-native";
-import Icons from "../assets/icons/Icons";
 
 export default function Menu({
   visible,

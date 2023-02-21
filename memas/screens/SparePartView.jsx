@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { FlatList, ScrollView, StyleSheet, View } from "react-native";
+import { ScrollView, StyleSheet, View } from "react-native";
 import Spinner from "react-native-loading-spinner-overlay";
 import Header from "../components/Header";
 import { AuthContext } from "../context/AuthContext";
@@ -7,12 +7,7 @@ import Icons from "../assets/icons/Icons";
 import MenuItem from "../components/MenuItem";
 import Menu from "../components/Menu";
 import TextItem from "../components/TextItem";
-import EquipmentCard from "../components/EquipmentCard";
 import Card from "../components/Card";
-import FilterBar from "../components/FilterBar";
-import CustomTextInput2 from "../components/CustomTextInput2";
-import SpinnerInput from "../components/SpinnerInput";
-import FooterNavigator from "../components/FooterNavigator";
 import BottomNavButtons from "../components/BottomNavButtons";
 
 export default function SparePartView({ route, navigation }) {

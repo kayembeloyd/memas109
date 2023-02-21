@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { FlatList, ScrollView, Text, View } from "react-native";
+import { FlatList, View } from "react-native";
 import Spinner from "react-native-loading-spinner-overlay";
 import { getHeaderTitle } from "@react-navigation/elements";
 import Header from "../components/Header";
